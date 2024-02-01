@@ -1,3 +1,5 @@
+//discussed the difference between Const, Let and Var
+
 const accountId = 144553
 let accountEmail = "Pradyumnakattel14@gmail.com"
 var accountPassword = "12345"
