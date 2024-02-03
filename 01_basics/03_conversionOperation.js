@@ -64,3 +64,14 @@ console.log(l);
 
 
 // similarly we can convert in String, Boolean by Boolean(), String() similar to Number()
+
+/*
+
+console.log(2+2);
+console.log(2+2);
+console.log(2+2);
+console.log(2+2);
+console.log(2+2);
+console.log(2+2);
+
+*/
