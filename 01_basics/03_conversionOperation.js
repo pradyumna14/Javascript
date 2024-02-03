@@ -68,10 +68,16 @@ console.log(l);
 /*
 
 console.log(2+2);
-console.log(2+2);
-console.log(2+2);
-console.log(2+2);
-console.log(2+2);
-console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2**2);
+console.log(2%2);
+
+console.log("1"+2);
+console.log("1"+2+2); >> 122
+console.log(1+2+"2"); >> 32
+// jun agadi hunxa tesko preference dherai, this is not a good practise tho..
 
 */
+
