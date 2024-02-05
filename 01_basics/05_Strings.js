@@ -32,3 +32,8 @@ const newString2 = "   Pradyumna     "   //we dont need the spaces, soo we use t
 console.log(newString2);
 console.log(newString2.trim());
 
+//I want to make some changes in the url.
+const url = "https://pradyumna.com/pradyumna%20sharma";
+console.log(url.replace('%20','-'));
+console.log(url.includes('sundar'));
+console.log(url.includes('kattel'));
