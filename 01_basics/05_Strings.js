@@ -33,7 +33,12 @@ console.log(newString2);
 console.log(newString2.trim());
 
 //I want to make some changes in the url.
-const url = "https://pradyumna.com/pradyumna%20sharma";
+const url = "https://pradyumna.com/pradyumna%20kattel";
 console.log(url.replace('%20','-'));
-console.log(url.includes('sundar'));
+console.log(url.includes('sundar'));   //'includes' checks if the given data contains the element of not
 console.log(url.includes('kattel'));
+
+const Krishav = "pradyumna-sharma-kattel"
+console.log(Krishav.split("-"));  //split() splitted the given string on the basis of '-' (in this case) to an array, we can split on the basis of anything, be it space or any other symbol.
+
+// Revisit and recall all the methods of string! 
