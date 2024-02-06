@@ -57,6 +57,20 @@ console.log(Math.random()*10);
 
 // suppose my random number was  0.035  then after *10 we would still get a 0.35 which still starts with a 0, again to avoid this we add a "1". we are generating random numbers here soo adding 1 in a random number results ina rrandom number itself soo we are good!
 
-console.log((Math.random()*10)+1);
+console.log((Math.random()*10)+1); //line 29 of chair aur code!
+
+
+/*
+lets say we want the random numbers to be within 10 and 20, juct like playing in ludo, to make the dice range from 1 to 6, similarly we are limiting from 10 to 20.
+*/
+
+const min = 10
+const max = 20
+//includes both 10 and 20.
+console.log(Math.floor(Math.random()*(max-min)+min));
+// >> prints: numbers between 10 to 20 including 10 and 20.
+
+
+
 
 
