@@ -50,5 +50,13 @@ console.log(Math.floor(4.2));
 console.log(Math.min(4,3,2,1));
 console.log(Math.max(4,3,2,1));
 
-console.log(Math.random());
+console.log(Math.random()); //prints different number different time starting with 0.
+
+// i dont need a 0.  soo i multiply it with 10
+console.log(Math.random()*10);
+
+// suppose my random number was  0.035  then after *10 we would still get a 0.35 which still starts with a 0, again to avoid this we add a "1". we are generating random numbers here soo adding 1 in a random number results ina rrandom number itself soo we are good!
+
+console.log((Math.random()*10)+1);
+
 
