@@ -24,4 +24,17 @@ let myTimeStamp = Date.now()
 
 console.log(myTimeStamp);
 console.log(myCreatedDate.getTime());
-console.log(myCreatedDate.getTime());
+
+console.log(math.floor(Date.now()/1000));  //millisecond to second ko lagi we divided by 1000.
+
+//more methods:
+
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getMonth());
+console.log(newDate.getDay());
+
+newDate.toLocaleString('default',{
+    weekday: "long"
+})
+
