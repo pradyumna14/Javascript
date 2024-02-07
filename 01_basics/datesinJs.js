@@ -20,4 +20,8 @@ console.log(myCreatedDate.toDateString());
 let myCreatedDate1 = new Date(2023,0,23,17,3,34)   // 17hrs(5pm), 3 minutes, 34 seconds 
 console.log(myCreatedDate1.toLocaleString());
 
+let myTimeStamp = Data.now()
 
+console.log(myTimeStamp);
+console.log(myCreatedData.getTime());
+console.log(myCreatedData.getTime());
