@@ -1,6 +1,7 @@
 //Singleton: know its brief definition.
 
 //Object.create (bata pani object banxa, its called using a constructor method and yeskai bhitra singleton banxa!)
+//>> Learnt in next file
 
 
 //object literal: way of declaring an object!
