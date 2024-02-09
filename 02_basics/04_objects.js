@@ -36,3 +36,21 @@ console.log(obj4);
 
 const obj5 = {...obj1, ...obj2};
 console.log(obj5);
+
+const user = [
+    {
+    },
+    {
+},
+{
+}
+]
+
+user[1].email
+
+console.log(tinderUser);
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnProperty('isLoggedIn')); //checks if 'isLoggedIn' keyword is present or not.
+console.log(tinderUser.hasOwnProperty('isLogged'));
