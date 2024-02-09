@@ -54,3 +54,33 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); //checks if 'isLoggedIn' keyword is present or not.
 console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+// Object De-Structure and JSAON API INTRO+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+const course = {
+    coursename: "JS in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+//               See here we have de structure the object and performing our operations as per the need!
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+ //++++++++++++++APIs+++++++++++++++++++++++++++++++++++++
+
+ // JSON: JavaScript object Notation
+
+ {
+
+
+ }
+//++++++
+ [
+{},
+{},
+{}
+ ]
