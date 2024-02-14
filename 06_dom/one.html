@@ -2,12 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
     <title>DOM LEARNING</title>
+    <style>
+
+        .bg-black{
+            background-color: rgb(49, 49, 49);
+            color: #fff
+        }
+    </style>
 </head>
-<body>
-    <div class="bg-black">
-        <h1 class = "heading"> DOM learning on chai aur code</h1>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class = "heading"> DOM learning .....</h1>
+        <p>Lorem ipsum dolor sit amet</p>
     </div>
 </body>
 </html>
+
+<script>
+
+document.getElementById('title').setAttribute('id', 'lol')
+// >> now on update the id name "title" will be replaced by 'lol'
+document.getAnimations('lol').getAttribute
+
+//we can also  set a variable to the long code soo that we dont have to write the whole code again and again.
+
+const title = document.getElementById('lol')
+
+//in this way we can give the styling too!!!
+title.style.padding='25px' 
+title.style.backgroundColor='green'
+title.style.borderRadius='30px'
+
+
+
+</script>
+
+
