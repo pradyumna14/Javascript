@@ -16,6 +16,12 @@
         <h1 id="title" class = "heading"> DOM learning .....</h1>
         <p>Lorem ipsum dolor sit amet</p>
     </div>
+<ul>
+    <li class="list-item">first</li>
+    <li class="list-item">second</li>
+    <li class="list-item">third</li>
+    <li class="list-item">fourth</li>
+</ul>
 </body>
 </html>
 
@@ -33,6 +39,49 @@ const title = document.getElementById('lol')
 title.style.padding='25px' 
 title.style.backgroundColor='green'
 title.style.borderRadius='30px'
+
+
+//We can get the content.
+title.textContent
+title.innerHTML
+title.innerText
+// all these methods are used to find out the same thing.but actually there is a difference.
+
+document.getElementsByClassName('heading')
+
+//selected individual query
+document.querySelector('ul')
+const myul = document.querySelector('ul')
+myul.querySelector('li')
+const turnGreen = myul.querySelector('li')
+turnGreen.style.backgroundColor="yellow"
+turnGreen.style.padding="20px"
+turnGreen.style.color="black"
+
+turnGreen.innerText //>> one
+turnGreen.innerText = "five"
+
+//selected multiple query!
+document.querySelectorAll('li')
+const tempLiList = document.querySelectorAll('li')
+tempLiList.forEach(function(l){
+    l.style.backgroundColor = 'green'
+    })
+
+// sometimes HTMLCollection ko form mah hunxa hamro type jaba hami getElementByClassName garxam, and HTMLCollection bata foreach() jasto use garna sakdainam, soo paila hami, HTMLCollection lai Array mah convert garxum and array bata hami aru dherai prototype haru access garna sakxam!
+
+document.getElementsByClassName('list-item')
+// >> HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+const tempCLassList = document.getElementsByClassName('list-item')
+const myConvertedArray = Array.from(tempCLassList)
+myConvertedArray
+// >> (4) [li.list-item, li.list-item, li.list-item, li.list-item]
+myConvertedArray.forEach(function(li){
+    li.style.color='orange'
+})
+
+
+
 
 
 
