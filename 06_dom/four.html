@@ -34,8 +34,26 @@ addOptiLanguage('golang')
 
 
 //+++++++++++++++++EDIT++++++++++++++++++++
-document.querySelector
+// replace python from the list to Mojo
 
+const secondLang = document.querySelector("li:nth-child(2)")
+//secondLang.innerHTML = "mojo"
+const newli = document.createElement('li')
+newli.textContent = "Mojo"
+secondLang.replaceWith(newli)
+
+
+//+++++++EDIT 2++++
+// replace Javascript to typescript
+
+const firstLang = document.querySelector("li:first-child")
+firstLang.outerHTML = '<li>TypeScript</li>'
+
+
+//+++++++++++REMOVE Last Language+++++++++++++++++
+
+const lastLang = document.querySelector('li:last-child')
+lastLang.remove()
 
 
 </script>
