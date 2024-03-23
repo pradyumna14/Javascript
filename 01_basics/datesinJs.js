@@ -12,7 +12,7 @@ console.log(myDate.toISOString());
 
 //++++++++++INTERVIEW QUESTION+++++++++++
 //What is the type of Date? >> Object
- console.log(typeof(myDate));
+console.log(typeof(myDate));
 
 let myCreatedDate = new Date(2023,0,23)   //0=Jan, 1=Feb,......12=Jan, Indexing of Months in JS
 console.log(myCreatedDate.toDateString());
